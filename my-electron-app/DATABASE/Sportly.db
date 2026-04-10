@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS sportlyDB;
+
+CREATE DATABASE sportlyDB;
+USE sportlyDB;
+
+CREATE TABLE cliente(
+    id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(45) NOT NULL,
+    email VARCHAR(60) NOT NULL,
+    senha VARCHAR(300) NOT NULL
+);
